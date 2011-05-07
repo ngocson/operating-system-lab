@@ -1,0 +1,7 @@
+1. /lib/modules/2.6../build7arch/i386/kernel/entry.S 	add entry   nr 289  or /usr/src/linux/arch/i386/kernel/entry.S (gleiches File ) sys_set_get_prompt
+2. /usr/src/linux/include/asm-i386/unistd.h     insert __NR__name  and +1 syscalls 
+3. /usr/src/linux/include/linux/syscalls.h 
+4. /usr/src/linux/kernel/set_get_prompt.c
+5. /usr/src/linux/kernel/Makefile
+6. set_get_prompt_wrapper.h
+7. userspace_set_get_prompt.c
